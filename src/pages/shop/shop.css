@@ -65,5 +65,32 @@
 @media (max-width: 900px) {
   .products {
     grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .shopTitle {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .shopTitle h1 {
+    margin: 10px 0px 0px 0px;
+  }
+  .product {
+    width: 100%;
+  }
+  .product-container-img {
+    width: 50%;
+    height: auto;
+  }
+
+  .desciption {
+    font-size: 20px;
+    margin-top: 2px;
+  }
+  .desciption p {
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+  .addToCartBttn {
+    margin-top: 8px;
   }
 }
